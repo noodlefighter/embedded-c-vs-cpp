@@ -17,6 +17,8 @@ extern "C" {
 
 void cpp_list(void)
 {
+    printf("---cpp_list---\n");
+
     // init
     for (int i = 0; i < LIST_SIZE; i++) {
         mylist.push_front((item){.a = i, .b = i, .c = i});

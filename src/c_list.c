@@ -15,6 +15,8 @@ static LIST_HEAD(mylist);
 
 void c_list(void)
 {
+    printf("---c_list---\n");
+
     // init
     for (int i = 0; i < LIST_SIZE; i++) {
         items[i].a = items[i].b = items[i].c = i;
